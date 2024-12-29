@@ -9,8 +9,9 @@ p{
     
 }
 .input{
-    width: 80%;
+    width: 90%;
     margin-left: 0;
-    margin-right: 80px;
+    margin-right: 0;
     text-align: center;
+    display: inline;
 }
