@@ -14,10 +14,13 @@ p{
     margin-right: 0;
     text-align: center;
     display: inline;
+    height: 40px; 
+    justify-content: space-around;
 }
 .label{
     width: 100%;
     display: block;
+    
 }
 button{
     display: block;
