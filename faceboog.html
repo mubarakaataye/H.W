@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>welcome</h1>
+        <form id="login-form">
+            <h2>Login</h2>
+            <input type="email" placeholder="Enter your email" required>
+            <input type="password" placeholder="enter your password" required>
+            <button>Submit</button>
+        </form>
+        <p>Don't have any accoynt</p>
+        <button id="creat-account-btn"> creat new account</button>
+        <form id="register-form" style="display: none;">
+            <h2>Creat new account</h2>
+            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email/Phone-number" required>
+            <input type="password" placeholder="Enter new password" required>
+            <label for="">Birthday</label>
+            <input type="date" required>
+            <div>
+                <label for="">Gender</label>
+                <label for="">
+                    <input type="radio" name="gender" value="male">Male
+                </label>
+                <label for=""><input type="radio" name="gender" value="female">Female</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

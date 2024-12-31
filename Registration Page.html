@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Page</title>
     <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         .button{
             display: inline;
+            text-align: center;
+           
+        }
+        body{
+           text-align: center;
+            font-family: 'Arial', sans-serif;
+            background: #fef7e1;
+            color: #333;
+        }
+        .input{
+            width: 100%;
+            margin: 5px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+            width: 100%;
         }
 
     </style>
@@ -15,24 +38,50 @@
     <div class="button">
         <button>Registration</button>
         <button>login</button>
+        
     </div>
-   
+    
+   <section>
         <form action="">
-            <div>
+            <br>
+            <div class="input">
             <label for="">First Name</label>
             <input type="text" placeholder="Enter Your Name">
+           
+        </div>
+        <br>
+        <div class="input">
             <label for="">Last name</label>
             <input type="text" placeholder="Enter Your Last Name">
+           
+            </div>
+            <br>
+            <div class="input">
             <label for="">Country</label>
             <input type="text" placeholder="Enter your Country Name">
+           
+        </div>
+        <br>
+        <div class="input">
             <label for="">Phone Number</label>
             <input type="number" placeholder="Enter Your Phone Number">
+           
+        </div>
+        <br>
+        <div class="input">
             <label for="">Email</label>
             <input type="email" placeholder="Enter Your Email">
+            
+        </div>
+        <br>
+        <div class="input">
             <label for="">Password</label>
             <input type="password" placeholder=" Enter your Password">
+           
         </div>
+        <br>
         </form>
+    </section>
         <button>Register Now</button>
    
 </body>
