@@ -3,3 +3,6 @@
     src: url('fonts/myFont.ttf')
     format('truetype');
 }
+body{
+    font-family: 'MyFont' , Arial, Helvetica, sans-serif;
+}
