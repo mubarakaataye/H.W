@@ -39,3 +39,6 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+.navbar .icons i{
+    margin: 15px;
+}
