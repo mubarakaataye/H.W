@@ -31,3 +31,6 @@ body{
     border: none;
     border-radius: 5px;
 }
+.navbar .search button{
+    margin-left: 5px;
+}
