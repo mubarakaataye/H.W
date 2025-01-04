@@ -1,0 +1,100 @@
+@font-fact {
+    font-family: 'MyFont';
+    src: url('fonts/myFont.ttf')
+    format('truetype');
+}
+body{
+    font-family: 'MyFont' , Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    line-height: 1.6;
+}
+.navbar{
+    background-color: #4267b2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar .logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.navbar .search {
+    display: flex;
+    align-items: center;
+}
+.navbar .search input{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.navbar .search button{
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar .icons i{
+    margin: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+main{
+    padding: 20px;
+}
+.post-box{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.post-box textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-box button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* فوتر */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.footer-icons i {
+    font-size: 20px;
+    Cursor: pointer
+}
