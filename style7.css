@@ -9,6 +9,59 @@ body{
     align-items: center;
     min-height: 100vh;
 }
-.container{
-    width: 90%;
+    .container {
+        width: 90%;
+        max-width: 600px;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    /* List Sections */
+    .list-section {
+        margin-bottom: 30px;
+    }
+    
+    .list-section h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: #555;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    /* Styled List */
+    .styled-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .styled-list li {
+        margin: 10px 0;
+        padding: 10px 20px;
+        background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+        color: #fff;
+        font-size: 18px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .styled-list li:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Icon Styles */
+    .styled-list i {
+        font-size: 20px;
+        color: #fff;
+    }
 }
