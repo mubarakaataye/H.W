@@ -5,4 +5,5 @@ body{
     background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
     color: #333;
     display: flex;
+    justify-content: center;
 }
